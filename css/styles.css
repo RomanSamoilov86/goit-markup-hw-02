@@ -1,0 +1,58 @@
+/* цвет акцент                 #2196F3 */
+/* основной цвет заголовков    #212121 */
+/* цвет текста                 #757575*/
+/* основной цвет фона          #FFFFFF */
+/* цвет фона нашей команды     #F5F4FA */
+
+:root {
+  --title-text-color: #757575;
+  --primary-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --primary-bg-color: #ffffff;
+}
+
+body {
+  color: var(--title-text-color);
+  background-color: var(--primary-bg-color);
+}
+/* header */
+.logo {
+  color: var(--primary-text-color);
+}
+.logo-accent {
+  color: var(--accent-text-color);
+}
+ul {
+  list-style: none;
+}
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
+.auth-nav a {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+
+/* тело */
+
+.hero .hero-link {
+  color: var(--primary-bg-color);
+}
+.hero {
+  background-color: #2f303a;
+}
+/* кнопка */
+.hero .hero-btn {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-text-color);
+}
+/* СЕКЦИИ */
+.section-title {
+  color: var(--primary-text-color);
+}
