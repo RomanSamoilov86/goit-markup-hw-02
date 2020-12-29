@@ -56,3 +56,15 @@ ul {
 .section-title {
   color: var(--primary-text-color);
 }
+.footer {
+  background-color: #2f303a;
+}
+.footer .footer-adress {
+  color: var(--primary-bg-color);
+}
+.footer .footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer .footer-span {
+  color: #ffffff;
+}
