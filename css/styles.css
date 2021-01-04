@@ -14,25 +14,46 @@
 body {
   color: var(--title-text-color);
   background-color: var(--primary-bg-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
+
 /* header */
 .logo {
+  text-decoration: none;
   color: var(--primary-text-color);
+
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: bold;
 }
 .logo-accent {
   color: var(--accent-text-color);
+  font-family: Raleway, sans-serif;
 }
 ul {
   list-style: none;
 }
 .site-nav .link {
+  text-decoration: none;
   color: var(--primary-text-color);
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link.current {
   color: var(--accent-text-color);
+  text-decoration: none;
 }
 .auth-nav a {
+  text-decoration: none;
   color: var(--primary-text-color);
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -43,6 +64,13 @@ ul {
 
 .hero .hero-link {
   color: var(--primary-bg-color);
+
+  font-weight: 900px;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero {
   background-color: #2f303a;
@@ -55,7 +83,41 @@ ul {
 /* СЕКЦИИ */
 .section-title {
   color: var(--primary-text-color);
+
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
+.section-link {
+  color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.section-name {
+  color: var(--primary-text-color);
+
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 1.2x;
+  text-align: center;
+}
+.section-job {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.section-title .text {
+  color: var(--title-text-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Footer */
 .footer {
   background-color: #2f303a;
 }
@@ -64,6 +126,7 @@ ul {
 }
 .footer .footer-link {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .footer .footer-span {
   color: #ffffff;
@@ -71,4 +134,5 @@ ul {
 button:hover,
 button:focus {
   color: var(--primary-bg-color);
-  background-color: var(--accent-text-color)
+  background-color: var(--accent-text-color);
+}
