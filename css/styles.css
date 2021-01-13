@@ -61,6 +61,10 @@ ul {
 .site-nav .link:focus {
   color: var(--accent-text-color);
 }
+.auth-nav-link:focus,
+.auth-nav-link:hover {
+  color: var(--accent-text-color);
+}
 
 /* тело */
 
